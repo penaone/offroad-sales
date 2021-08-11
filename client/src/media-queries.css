@@ -1,0 +1,490 @@
+/* || Media Queries */
+
+@media screen and (max-width: 1440px) {
+  /* || Menu Page */
+  .menu-item-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  /* || Footer Component */
+  .left-footer {flex: 50%;}
+}
+
+@media screen and (max-width: 1024px) {
+  /* || General Styles */
+  .content-title {
+    font-size: 3vw;
+    padding: 25px 0;
+  }
+  
+  .sub-content-title {
+    font-size: 2.5vw;
+    padding: 25px 0;
+  }
+  
+  /* || Header & Nav */
+  header {
+    padding: 10px 0;
+    line-height: 0.8;
+  }
+
+  .header-small {font-size: 12px;}
+
+  .nav-title {
+    font-size: 3vw;
+    padding: 5px 10px;
+    flex: 60%;
+  }
+
+  .nav-title a {letter-spacing: 1px;}
+
+  .nav {
+    margin: 0 auto;
+    text-align: center;
+    flex: 50%;
+  }
+
+  .nav-item {
+    margin: 0 10px 0 0;
+    text-align: center;
+  }
+
+  /* || Jumbotron & Home */
+  .hero {padding: 287px;}
+
+  .hero-body {
+    top: 250px;
+    right: 50px;
+    margin: 0;
+  }
+
+  .hero-body h1 {
+    font-size: 3.5vw;
+    padding: 10px 0;
+  }
+
+  .hero-btn {padding: 10px;}
+
+  .hero-btn a {font-size: 2vw;}
+
+  .hero-body p {font-size: 1.3vw;}
+
+  /* || Our Story Page */
+  .story-top {height: 600px;}
+
+  .story-top p {
+    font-size: 5vw;
+    padding: 250px 0;
+  }
+
+  .story-div {margin-bottom: 20px;}
+
+  .story-div-left {
+    margin: 10px;
+    flex: 30%;
+  }
+
+  .chef-img {height: 400px;}
+
+  .story-div-right {margin: 10px;}
+
+  .story-div-right p {font-size: 1.6vw;}
+
+  .inside {height: 250px;}
+
+  .our-values {width: 80%;}
+
+  .our-values p {
+    text-align: center;
+    font-size: 1.6vw;
+    line-height: 2;
+  }
+
+  .our-partners {width: 100%;}
+
+  .partner-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner-1, .partner-2, .partner-3 {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+  }
+
+  .partner-item p {
+    margin: 15px auto;
+    font-size: 1.6vw;
+  }
+
+  /* || Menu Page */
+  .menu-card-wrapper {
+    margin: 15px 5px;
+    background: var(--primary);
+    width: 35%;
+  }
+
+  .download-menu {
+    font-size: 1.3vw;
+    margin-top: -20px;
+  }
+
+  /* || Contact Page*/
+  .contact-form-wrapper {
+    padding: 10px;
+    width: 75%;
+  }
+  
+  .contact-wrapper {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+
+  #contact-form {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .contact-form-row {
+    margin: 5px auto;
+    width: 100%;
+  }
+  .contact-form-row label {
+    display: block;
+    font-size: 1.6vw;
+    text-align: left;
+    margin: 10px auto;
+  }
+  .contact-form-row textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    resize: none;
+    border: thin solid black;
+  }
+  
+  .contact-form-row input {
+    display: block;
+    border: none;
+    border-bottom: thin solid black;
+    margin: 13.5px auto;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .contact-form-row textarea:focus {outline: thin solid var(--primary);}
+    
+  .contact-form-row input:focus {
+    border: none;
+    outline: none;
+    border-bottom: thin solid var(--primary);
+  }
+  
+  .contact-form-row input:active {
+    border: none;
+    border-bottom: thin solid var(--primary);
+  }
+
+  #contact-form p {
+    font-size: 1vw;
+    margin: 0;
+  }
+
+  #contact-form label, input {
+    display: block;
+    text-align: left;
+  }
+  
+  iframe {width: 100%;}
+
+  .contact-right {
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
+
+  .contact-right p {
+    font-size: 1.6vw;
+    line-height: 1.5;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px 0;
+    border-top: thin dashed var(--primary);
+  }
+
+  .contact-text-space {line-height: 2.5;}
+  
+  /* || Sign Up & Log In Page */      
+  .form-wrapper {
+    padding: 20px;
+    width: 75%;
+    margin: 30px auto;
+  }
+  
+  .login-wrapper {margin: 110px auto;}
+  
+  form {margin: 0;}
+  
+  .form-row {margin: 0 auto 15px auto;}
+  
+  .form-row label {
+    font-size: 1.6vw;
+    margin: 5px auto;
+  }
+  
+  form button {margin: 10px 0;}
+
+  /* || Footer Component */
+  footer {padding: 10px 0;}
+
+  .left-footer {
+    flex: 30%;
+    padding: 0 10px;
+  }
+
+  .right-footer {
+    flex: 90%;
+    padding: 0 10px;
+  }
+
+  .right-footer a {
+    font-size: 30px;
+    margin: 0 0 0 20px;
+    color: white;
+    transition: 0.3s;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  /* || General Styles */
+  .content-title {
+    font-size: 3.5vw;
+    padding: 25px 0;
+  }
+  
+  .sub-content-title {
+    font-size: 2.5vw;
+    padding: 25px 0;
+  }
+  
+  /* || Header & Nav */
+  header {display: block;}
+
+  .header-small {font-size: 1.5vw;}
+
+  .nav-title {text-align: center;}
+
+  .nav-item {margin: 0 5px;}
+
+  /* || Jumbotron & Home */
+  .hero {height: 220px;}
+
+  .hero-body {
+    top: 350px;
+    right: 120px;
+    margin: 0;
+    width: 65%;
+  }
+
+  /* || Our Story Page */
+  .story-top {height: 400px;}
+
+  .story-top p {padding: 175px 0;}
+
+  .story-div-left {
+    margin: 10px;
+    flex: 30%;
+  }
+
+  .chef-img {
+    height: 300px; 
+    background-position-x: -130px;
+  }
+
+  /* || Menu Page */
+  .menu-card-wrapper {
+    margin: 15px 5px;
+    background: var(--primary);
+    width: 45%;
+  }
+
+  .download-menu {font-size: 1.5vw;}
+
+  /* || Contact Page*/
+  .contact-form-wrapper {width: 90%;}
+
+  #contact-form {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  /* || Sign Up & Log In Page */      
+  .form-wrapper {width: 90%;}
+  
+  .form-row {width:75%;}
+  
+  form button {margin: 10px 0;}
+}
+  
+@media screen and (max-width: 425px) {
+  /* || General Styles */
+  .content-title {font-size: 5vw;}
+  
+  .sub-content-title {font-size: 3vw;}
+  
+  /* || Header & Nav */
+  .nav-item {margin: 0 1px;}
+
+  .nav-item a {font-size: 2.5vw;}
+
+  /* || Jumbotron & Home */
+  .hero {
+    padding: 150px;
+    width: 125px;
+  }
+
+  .hero-body {
+    top: 250px;
+    right: 75px;
+  }
+
+  .hero-body h1 {font-size: 4vw;}
+
+  .hero-btn a {font-size: 3vw;}
+
+  .hero-body p {font-size: 2.5vw;}
+  
+  /* || Our Story Page */
+  .story-top {height: 300px;}
+
+  .story-top p {padding: 125px 0;}
+
+  .story-div {display: block;}
+
+  .story-div-left {margin: 5px;}
+
+  .story-div-right p {
+    display: block;
+    font-size: 2.8vw;
+    text-align: center;
+  }
+
+  .chef-img {background-position-x: -50px;}
+
+  .inside {height: 150px;}
+
+  .our-values p {font-size: 2.8vw;}
+
+  .partner-1, .partner-2, .partner-3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .partner-item p {
+    margin: 15px auto;
+    font-size: 2.5vw;
+  }
+
+  /* || Menu Page */
+  .menu-item-img img {max-height: 150px;}
+
+  .menu-card-wrapper {width: 45%;}
+
+  /* || Contact Page*/
+  .contact-form-wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .contact-form-row {
+    margin: 5px auto;
+    width: 100%;
+  }
+  .contact-form-row label {font-size: 2.5vw;}
+
+  #contact-form p {
+    font-size: 1.8vw;
+    padding-bottom: 10px;
+  }
+
+  iframe {
+    width: 90%;
+    margin: 10px 5px;
+  }
+
+  .contact-right p {font-size: 1.8vw;}    
+
+  /* || Sign Up & Log In Page */    
+  .go-back {font-size: 2.5vw;}
+
+  .form-wrapper {
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .form-row {width: 75%;}
+
+  form button {
+    margin: 10px auto;
+    width: 50%;
+  }
+
+  /* || Footer Component */  
+  .left-footer {font-size: 2.2vw;}
+
+  .right-footer a {font-size: 6vw;}
+}
+
+@media screen and (max-width: 375px) {
+  /* || Header & Nav */
+  .nav-title a {font-size: 5vw;}
+
+  .header-small {font-size: 2vw;}
+
+  .nav-item {margin: 0;}
+
+  .nav-item a {font-size: 2.5vw;}
+
+  /* || Jumbotron & Home */
+  .hero {
+    padding: 150px;
+    width: 75px;
+  }
+
+  .hero-body {right: 65px;}
+
+  /* || Our Story Page */  
+  .partner-1, .partner-2, .partner-3 {
+    width: 75px;
+    height: 75px;
+  }
+  
+  /* || Sign Up & Log In Page */  
+  .form-row label {font-size: 3vw;}
+
+  .form-row input {font-size: 2.5vw;}
+
+  form button {font-size: 4vw;}
+
+  /* || Footer Component */  
+  .left-footer {flex: 50%;}
+}
+
+@media screen and (max-width: 320px) {
+  /* || Jumbotron & Home */
+  .hero {
+    padding: 150px;
+    width: 20px;
+  }
+  
+  .hero-body {right: 55px;}
+}

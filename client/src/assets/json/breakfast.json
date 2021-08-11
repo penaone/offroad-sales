@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1 ,
+        "name": "Ham, Egg & Cheese",
+        "image": "https://user-images.githubusercontent.com/65309756/104776365-35a8ba00-5737-11eb-86da-1b8b2f524bd4.png",
+        "price": "$"
+    },
+    {
+        "id": 2 ,
+        "name": "Breakfast Italian Sausage",
+        "image": "https://user-images.githubusercontent.com/65309756/104776095-be732600-5736-11eb-9d67-769f4f3ad289.png",
+        "price": "$"
+    },
+    {
+        "id": 3 ,
+        "name": "Breakfast Chorizo",
+        "image": "https://user-images.githubusercontent.com/65309756/104776448-57a23c80-5737-11eb-85c3-918ada77a751.png",
+        "price": "$"
+    }
+]

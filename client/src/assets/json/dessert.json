@@ -1,0 +1,26 @@
+[ 
+    {
+        "id": 9 ,
+        "name": "Baked Cherry",
+        "image": "https://user-images.githubusercontent.com/65309756/104778601-dfd61100-573a-11eb-82d9-843ba2fdf024.png",
+        "price": "$"
+    },
+    {
+        "id": 10 ,
+        "name": "Baked Apple",
+        "image": "https://user-images.githubusercontent.com/65309756/104778657-f67c6800-573a-11eb-9d99-49a4c2a29a17.png",
+        "price": "$"
+    },
+    {
+        "id": 11 ,
+        "name": "Baked Peach",
+        "image": "https://user-images.githubusercontent.com/65309756/104778818-38a5a980-573b-11eb-855c-b7f64e1f3356.png",
+        "price": "$"
+    },
+    {
+        "id": 12 ,
+        "name": "Chocolate S'mores",
+        "image": "https://user-images.githubusercontent.com/65309756/104778731-157afa00-573b-11eb-8357-2011bf50036b.png",
+        "price": "$"
+    }
+]

@@ -1,0 +1,32 @@
+[ 
+    {
+        "id": 4 ,
+        "name": "Ground Beef",
+        "image": "https://user-images.githubusercontent.com/65309756/104778019-e44dfa00-5739-11eb-953c-85ed3b405ba4.png",
+        "price": "$"
+    },
+    {
+        "id": 5 ,
+        "name": "Chicken",
+        "image": "https://user-images.githubusercontent.com/65309756/104778067-fd56ab00-5739-11eb-8c51-c38540081e4e.png",
+        "price": "$"
+    },
+    {
+        "id": 6 ,
+        "name": "Buffalo Chicken",
+        "image": "https://user-images.githubusercontent.com/65309756/104778108-119aa800-573a-11eb-853f-cab09f4a1187.png",
+        "price": "$"
+    },
+    {
+        "id": 7 ,
+        "name": "Jalapeño Chicken",
+        "image": "https://user-images.githubusercontent.com/65309756/104778338-6ccc9a80-573a-11eb-995e-514952d31aa4.png",
+        "price": "$"
+    },
+    {
+        "id": 8 ,
+        "name": "Vegan",
+        "image": "https://user-images.githubusercontent.com/65309756/104778396-853cb500-573a-11eb-8f83-2684530dbc5b.png",
+        "price": "$"
+    }
+]
